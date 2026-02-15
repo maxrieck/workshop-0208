@@ -1,0 +1,101 @@
+
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 60px 40px;
+    gap: 40px;
+}
+
+.hero-text h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+
+.hero img {
+    width: 50%;
+    border-radius: 12px;
+}
+
+.hero-btn {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #8b1e1e;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #a12222;
+}
+
+
+.menu {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.menu-items {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+.card {
+    background-color: #8b1e1e;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.195);
+}
+
+.card img {
+    width: 100%;
+    height: 320px;
+    border-radius: 12px;
+    background-color: white;
+    padding:2px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+}
+
+
+.card p {
+    font-size: small;
+}
+
+#about {
+    padding: 60px 40px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+#about h2 {
+    border-bottom: solid #ddd;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.visit {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 40px;
+    margin: 0 auto;
+
+}

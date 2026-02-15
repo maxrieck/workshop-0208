@@ -1,0 +1,26 @@
+.menu-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+.menu-banner img {
+    width: 100%;
+    height: 360px;
+    display: block;
+    object-fit: cover;
+}
+
+.menu-banner h2 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 2;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 1;
+    text-shadow: 0 6px 18px rgba(0,0,0,0.6);
+
+}

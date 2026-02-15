@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #8b1e1e;
+}
+
+
+.header h1 {
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 4px;
+
+}
+
+.footer {
+    background-color: #8b1e1e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
