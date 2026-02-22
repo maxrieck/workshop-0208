@@ -99,3 +99,24 @@
     margin: 0 auto;
 
 }
+
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 360px;
+    }
+
+}
